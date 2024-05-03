@@ -33,6 +33,8 @@ function inits() {
   }
   function caseChange(e) {
     let upperInfo = e.value;
+    let upperLetter = upperInfo.substring(0,1).toUpperCase();
     let lowerInfo = document.getElementById("lowerLocation");
-    lowerInfo.value = upperInfo.toLowerCase();
+    let newWord = upperLetter + upperInfo.toLowerCase().substring(1,upperInfo.length);
+    lowerInfo.value = newWord;
   }
