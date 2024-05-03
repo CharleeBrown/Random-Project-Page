@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#con{
+  margin: 0 auto;
+  width: 80%;
+
+}
+
+#rowFlex{
+  margin-top:30px;
+}
+
+#capsEntry{
+  float:right;
+  width:300px;
+}
+
+#lowerLocation{
+  width:300px;
+}
+
+hr{
+    text-align:center;
+
+}
+
+#noSub{
+  padding-bottom:10px;
+}
+
+#lblCol{
+  float:right;
+  padding-right:10px;
+}
